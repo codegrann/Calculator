@@ -14,6 +14,8 @@ body{
 #screen{
     border: 2px solid blue;
     text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 5px;
 }
 #buttons{
     border: 2px solid black;
