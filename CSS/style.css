@@ -7,7 +7,7 @@ body{
 }
 #container{
     width: 400px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: black;
     color: white;
 }
@@ -49,11 +49,12 @@ body{
     flex-basis: 74.8%;
 }
 .calc-btn:last-child{
-    background-color: #df974c;
+    background-color: #756b60;
+    color: white;
 }
 .calc-btn:last-child:hover{
-    background-color: #dfb07e;
+    background-color: #3f3c3a;
 }
 .calc-btn:last-child:active{
-    background-color: #dd8d37;
+    background-color: #6f5d4a;
 }
