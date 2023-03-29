@@ -40,5 +40,11 @@ body{
     background-color: #bbbcbe;
 }
 .calc-btn:hover{
-    background-color: #bbbcbe;
+    background-color: #ebebeb;
+}
+.dbl-col{
+    flex-basis: 49.7%;
+}
+.tpl-col{
+    flex-basis: 74.8%;
 }
