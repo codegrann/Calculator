@@ -22,6 +22,16 @@ body{
     border: 2px solid black;
 }
 .btn-row{
+    border: 2px solid green;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.calc-btn{
+    background-color: #d8d9db;
+    color: black;
+    border: none;
+    font-size: 18pt;
+    height: 100px;
+    flex-basis: 24.5%;
 }
