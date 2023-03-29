@@ -48,3 +48,12 @@ body{
 .tpl-col{
     flex-basis: 74.8%;
 }
+.calc-btn:last-child{
+    background-color: #df974c;
+}
+.calc-btn:last-child:hover{
+    background-color: #dfb07e;
+}
+.calc-btn:last-child:active{
+    background-color: #dd8d37;
+}
