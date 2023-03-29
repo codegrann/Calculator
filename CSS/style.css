@@ -8,9 +8,12 @@ body{
 #container{
     width: 400px;
     border: 2px solid red;
+    background-color: black;
+    color: white;
 }
 #screen{
     border: 2px solid blue;
+    text-align: right;
 }
 #buttons{
     border: 2px solid black;
