@@ -36,3 +36,9 @@ body{
     height: 100px;
     flex-basis: 24.5%;
 }
+.calc-btn:active{
+    background-color: #bbbcbe;
+}
+.calc-btn:hover{
+    background-color: #bbbcbe;
+}
