@@ -12,20 +12,21 @@ body{
     color: white;
 }
 #screen{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
     padding: 20px 5px;
     font-size: 18pt;
 }
 #buttons{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .btn-row{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    margin-bottom: 0.5%;
 }
 .calc-btn{
     background-color: #d8d9db;
