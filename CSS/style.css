@@ -21,3 +21,7 @@ body{
 #buttons{
     border: 2px solid black;
 }
+.btn-row{
+    display: flex;
+    flex-flow: row nowrap;
+}
