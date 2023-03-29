@@ -9,3 +9,9 @@ body{
     width: 400px;
     border: 2px solid red;
 }
+#screen{
+    border: 2px solid blue;
+}
+#buttons{
+    border: 2px solid black;
+}
