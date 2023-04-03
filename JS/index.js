@@ -10,7 +10,10 @@ function buttonClick(value){
     }
 }
 function handleSymbol(symbol){
-
+    if(symbol==='C'){
+        buffer='0';
+        runningTotal=0;
+    }
 }
 function handleNumber(numberString){
     if(buffer==='0'){
