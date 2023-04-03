@@ -18,6 +18,7 @@ function handleNumber(numberString){
     }else{
         buffer +=numberString;
     }
+    console.log("buffer", buffer);
 }
 function init(){
     document.querySelector("#buttons")
