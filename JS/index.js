@@ -8,6 +8,8 @@ function buttonClick(value){
     }else{
         handleNumber(value)
     }
+    screen.innerText=buffer;
+    console.log("buffer", buffer);
 }
 function handleSymbol(symbol){
     if(symbol==='C'){
@@ -21,8 +23,6 @@ function handleNumber(numberString){
     }else{
         buffer +=numberString;
     }
-    screen.innerText=buffer;
-    console.log("buffer", buffer);
 }
 function init(){
     document.querySelector("#buttons")
