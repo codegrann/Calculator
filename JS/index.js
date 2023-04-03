@@ -12,10 +12,11 @@ function buttonClick(value){
     console.log("buffer", buffer);
 }
 function handleSymbol(symbol){
-    if(symbol==='C'){
+   switch(value)
+    case 'C':
         buffer='0';
-        runningTotal=0;
-    }
+        runnintTotal=0;
+        break;
 }
 function handleNumber(numberString){
     if(buffer==='0'){
