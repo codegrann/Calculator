@@ -3,17 +3,21 @@ let buffer="0";
 let previousOperator;
 const screen=document.querySelector("#screen");
 function buttonClick(value){
-    if(typeof parseInt(value)=== 'number'){
-
+    if(isNaN(value)){
+        handleSymbol(value);
     }else{
-        
+        handleNumber(value)
     }
 }
-function handleSymbol(){
+function handleSymbol(symbol){
 
 }
-function handleNumber(){
-
+function handleNumber(numberString){
+    if(buffer==='0'){
+        buffer=numberString;
+    }else{
+        buffer +=numberString;
+    }
 }
 function init(){
     document.querySelector("#buttons")
