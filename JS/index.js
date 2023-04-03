@@ -18,6 +18,7 @@ function handleNumber(numberString){
     }else{
         buffer +=numberString;
     }
+    screen.innerText=buffer;
     console.log("buffer", buffer);
 }
 function init(){
