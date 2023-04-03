@@ -12,12 +12,30 @@ function buttonClick(value){
     console.log("buffer", buffer);
 }
 function handleSymbol(symbol){
-   switch(value)
+   switch(symbol){
     case 'C':
         buffer='0';
         runnintTotal=0;
         break;
+    case '+':
+    case '-':
+    case '&times;':    
+    case '&divide;':
+        handleMath(symbol)    ;
+        break;
+   }
 }
+function handleMath(symbol){
+    if(buffer==="0"){
+        return;
+    }
+    const intBuffer=parseInt(buffer);
+
+    if(runningTotal===0){
+        
+    }
+}
+
 function handleNumber(numberString){
     if(buffer==='0'){
         buffer=numberString;
