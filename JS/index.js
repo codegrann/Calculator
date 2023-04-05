@@ -1,15 +1,18 @@
 let runningTotal = 0;
 let buffer = "0";
-let previousOperator=null;
+let previousOperator;
 const screen = document.querySelector("#screen");
 function buttonClick(value) {
-    if (isNaN(value)) {
+    if (isNaN(parseInt(value))) {
         handleSymbol(value);
     } else {
         handleNumber(value)
     }
     screen.innerText = buffer;
     console.log("buffer", buffer);
+
+    // rerender();
+
 }
 function handleSymbol(symbol) {
     console.log('handleSymbol', symbol)
@@ -24,7 +27,7 @@ function handleSymbol(symbol) {
             }
             flushOperation(parseInt(buffer));
             previousOperator=null;
-            buffer=runningTotal;
+            buffer=+runningTotal;
             runningTotal=0;
             break;
         case '&larr;':
