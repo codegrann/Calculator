@@ -42,7 +42,9 @@ function handleMath(symbol){
 
 function flushOperation(intBuffer){
     if(previousOperator==='+'){
-        
+        buffer=numberString;
+    }else{
+        buffer+=numberString;
     }
 }
 
