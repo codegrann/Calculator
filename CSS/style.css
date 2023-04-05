@@ -7,7 +7,7 @@ body{
 }
 #container{
     width: 400px;
-    margin: 0 auto;
+    margin: 2% auto;
     /* border: 2px solid red; */
     background-color: black;
     color: white;
