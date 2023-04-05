@@ -30,7 +30,7 @@ function handleSymbol(symbol) {
             buffer=+runningTotal;
             runningTotal=0;
             break;
-        case '&larr;':
+        case '←':
             if(buffer.length===1){
                 buffer="0"
             }else{
