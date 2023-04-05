@@ -40,8 +40,10 @@ function handleMath(symbol){
     buffer="0";
 }
 
-function flushOperation(){
-    
+function flushOperation(intBuffer){
+    if(previousOperator==='+'){
+        
+    }
 }
 
 function handleNumber(numberString){
