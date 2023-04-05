@@ -37,6 +37,11 @@ function handleMath(symbol){
         flushOperation(intBuffer)
     }
     previousOperato=symbol;
+    buffer="0";
+}
+
+function flushOperation(){
+    
 }
 
 function handleNumber(numberString){
