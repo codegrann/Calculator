@@ -16,7 +16,7 @@ function handleSymbol(symbol) {
     switch (symbol) {
         case 'C':
             buffer = '0';
-            runnintTotal = 0;
+            runningTotal = 0;
             break;
         case '=':
             if(previousOperator===null){
@@ -26,6 +26,13 @@ function handleSymbol(symbol) {
             previousOperator=null;
             buffer=runningTotal;
             runningTotal=0;
+            break;
+        case '&larr;':
+            if(buffer.length===1){
+                buffer="0"
+            }else{
+                buffer=buffer.substring(0, buffer.length - 1)
+            }
             break;
         case '+':
         case '-':
@@ -46,7 +53,7 @@ function handleMath(symbol) {
     } else {
         flushOperation(intBuffer)
     }
-    previousOperato = symbol;
+    previousOperator = symbol;
     buffer = "0";
 }
 
