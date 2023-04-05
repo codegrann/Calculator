@@ -42,9 +42,13 @@ function handleMath(symbol){
 
 function flushOperation(intBuffer){
     if(previousOperator==='+'){
-        buffer=numberString;
+        runningTotal+=intBuffer;
+    }else if(previousOperator==='-'){
+        runningTotal-=intBuffer;
+    }else if(previousOperator==='&times;'){
+        runningTotal*=intBuffer;
     }else{
-        buffer+=numberString;
+        runningTotal/=intBuffer;
     }
 }
 
