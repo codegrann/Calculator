@@ -19,9 +19,6 @@ body{
     padding: 20px 5px;
     font-size: 18pt;
 }
-#buttons{
-    /* border: 2px solid rgb(235, 14, 14); */
-}
 .btn-row{
     /* border: 2px solid green; */
     display: flex;
