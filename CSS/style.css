@@ -13,7 +13,6 @@ body{
     color: white;
 }
 #screen{
-    /* border: 2px solid blue; */
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
     padding: 20px 5px;
