@@ -10,9 +10,6 @@ function buttonClick(value) {
     }
     screen.innerText = buffer;
     console.log("buffer", buffer);
-
-    // rerender();
-
 }
 function handleSymbol(symbol) {
     console.log('handleSymbol', symbol)
