@@ -91,9 +91,9 @@ init();
 
 var x=100;
 function scopeX(){
-    var x=200;
-    console.log(x)
     // var x=200;
+    console.log(x)
+    var x=200;
 }
 console.log(x);
 scopeX();
