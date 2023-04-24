@@ -86,15 +86,3 @@ function init() {
 init();
 
 
-
-
-
- let x=100;
- x=200;
-function scopeX(){
-    const x=200;
-    console.log(x)
-    //  let x=200;
-}
-console.log(x);
-// scopeX();
