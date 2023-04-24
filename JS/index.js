@@ -93,9 +93,8 @@ let x=100;
 // let x=200;
 function scopeX(){
     // let x=200;
-    var x;
     console.log(x)
-     x=200;
+    //  let x=200;
 }
 console.log(x);
 scopeX();
