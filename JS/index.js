@@ -89,11 +89,13 @@ init();
 
 
 
-var x=100;
+let x=100;
+// let x=200;
 function scopeX(){
-    // var x=200;
+    // let x=200;
+    var x;
     console.log(x)
-    var x=200;
+     x=200;
 }
 console.log(x);
 scopeX();
