@@ -94,7 +94,7 @@ init();
 // }
 
 function getNthFibo(n) {
-    if ( n <= 1)  return n;
+    if ( n <= 1) console.log(n);
     var sum = 0,
         last = 1,
         lastlast
@@ -103,7 +103,7 @@ function getNthFibo(n) {
         lastlast = last;
         last = sum;
      }
-     return sum;
+     console.log(sum);
 }
 
-getNthFibo(2);
+getNthFibo(5);
