@@ -87,8 +87,9 @@ init();
 
 function getNthFibo(n) {
     if (n <= 1) {
-        return n;
+        console.log(n);
     } else {
-        return getNthFibo(n - 1) + getNthFibo(n - 2);
+        console.log(getNthFibo(n - 1) + getNthFibo(n - 2));
     }
 }
+getNthFibo(2);
