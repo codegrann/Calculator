@@ -92,22 +92,3 @@ init();
         // console.log(getNthFibo(n - 1) + getNthFibo(n - 2));
     // }
 // }
-
-function getNthFibo(n) {
-    if ( n <= 1) console.log(n);
-    var sum = 0,
-        last = 1,
-        lastlast
-    for (var i = 1; i < n; i++) {
-        sum = lastlast + last;
-        lastlast = last;
-        last = sum;
-     }
-     console.log(sum);
-}
-
-getNthFibo(5);
-
-let x=1, y=2;
-let ar=[x,y]
-console.log(ar);
