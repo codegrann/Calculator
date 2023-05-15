@@ -107,3 +107,7 @@ function getNthFibo(n) {
 }
 
 getNthFibo(5);
+
+let x=1, y=2;
+let ar=[x,y]
+console.log(ar);
