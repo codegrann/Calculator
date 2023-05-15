@@ -7,9 +7,11 @@ body{
 }
 #container{
     width: 400px;
-    margin: 0 auto;
+    margin: 1rem auto;
     background-color: black;
     color: white;
+    border-radius: 2%;
+    box-shadow: -2px 2px 3px rgb(159, 159, 120);
 }
 #screen{
     text-align: right;
