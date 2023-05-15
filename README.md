@@ -9,4 +9,4 @@ A calculator app implimenting basic mathematics operations.
 
 
 
-![image](https://user-images.githubusercontent.com/94289940/235763755-7c1ee551-2188-41ed-a771-5aaae214c95d.png)
+![image](https://github.com/codegrann/Calculator/assets/94289940/3ba9f1c6-5453-44fd-baea-9aa36ba9ca71)
